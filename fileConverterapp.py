@@ -23,7 +23,7 @@ if upload_files:
             st.error(f"Unsupported file type: {file_ext}")
             continue
 
-        # Display file info INSIDE THE LOOP
+        
         st.write(f"File name : {file.name}")
         st.write(f"File Size : {file.size / 1024:.2f} KB") 
 
